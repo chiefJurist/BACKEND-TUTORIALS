@@ -1,7 +1,7 @@
 <?php 
     $stringOne = "My email is ";
     $stringTwo = "anthonynnanna004@gmail.com";
-    $name = "AnThOny";
+    $name = "Anthony";
 ?>
 <!DOCTYPE html>
 <html>

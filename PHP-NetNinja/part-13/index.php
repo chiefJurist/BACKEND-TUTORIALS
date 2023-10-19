@@ -16,7 +16,7 @@
     }
 
     function formatProduct($product){
-        echo "{$product['name']} cost {$product['price']} to buy <br/>";
+        echo "{$product["name"]} cost {$product['price']} to buy <br/>";
     }
 
     function formatProduct2($product){
