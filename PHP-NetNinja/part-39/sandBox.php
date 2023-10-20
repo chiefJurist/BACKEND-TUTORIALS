@@ -8,20 +8,20 @@
     $file = "readme.txt";
 
     if (file_exists($file)) {
-        /*//read file
-        echo readfile($file) . "<br/>";
+        //read file
+        //echo readfile($file) . "<br/>";
 
         //copy file
-        copy($file, "quotes.txt");
+        //copy($file, "quotes.txt");
 
         //Absolute path
-        echo realpath(($file)) . "<br/>";
+        //echo realpath(($file)) . "<br/>";
 
         //file size
-        echo filesize($file) . "<br/>";
+        //echo filesize($file) . "<br/>";
 
         //rename file
-        rename($file, "text.txt");*/
+        //rename($file, "text.txt");
     }else {
         echo "file does not exist";
     }

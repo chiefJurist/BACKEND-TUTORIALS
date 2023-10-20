@@ -32,7 +32,7 @@
     echo $userOne -> name;*/
 
     $userTwo = new User("Anthony", "anthonynnanna004@gmail.com");
-    echo $userTwo ->getName();
+    echo "{$userTwo ->getName()} <br/>";
     //$userTwo -> setName(50);
     //echo $userTwo ->getName();
     $userTwo -> setName("Chiboy");
