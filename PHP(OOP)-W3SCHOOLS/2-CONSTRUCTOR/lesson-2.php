@@ -19,7 +19,7 @@
 
     $apple = new Fruit("Apple", "red");
 
-    echo "Name: " .  $apple->getName();
+    echo "Name: {$apple->getName()}";
     echo '<br>';
-    echo "Color: " . $apple->getColor();
+    echo "Color: {$apple->getColor()}";
 ?>

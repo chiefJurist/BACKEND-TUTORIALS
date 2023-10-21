@@ -28,11 +28,11 @@
     $apple->setColor("red");
     $banana->setColor("green");
 
-    echo "Name: " .  $apple->getName();
+    echo "Name: {$apple->getName()}";
     echo '<br>';
-    echo "Color: " . $apple->getColor();
+    echo "Color: {$apple->getColor()}";
     echo '<br><br>';
-    echo "Name: " .  $banana->getName();
+    echo "Name:  {$banana->getName()}";
     echo '<br>';
-    echo "Color: " . $banana->getColor();
+    echo "Color: {$banana->getColor()}";
 ?>
