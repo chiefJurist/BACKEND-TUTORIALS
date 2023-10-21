@@ -1,11 +1,11 @@
 <?php
     //Using Callbacks in user defined functions
     function exclaim($str){
-        return $str . '!';
+        return "$str !";
     }
 
     function ask($str){
-        return $str . "?";
+        return "$str ?";
     }
 
     function printFormatted($str, $format){

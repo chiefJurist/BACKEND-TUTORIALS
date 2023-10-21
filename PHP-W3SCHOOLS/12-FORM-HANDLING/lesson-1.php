@@ -58,7 +58,7 @@
             $gender = testInput($_POST['gender']);
         }
 
-        //STEP 5: Submit to databas
+        //STEP 5: Submit to database
         echo $name .'<br>';
         echo $email .'<br>';
         echo $website .'<br>';

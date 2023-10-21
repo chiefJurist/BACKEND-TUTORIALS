@@ -5,6 +5,6 @@
     $arr = json_decode($jsonobj, true);
 
     foreach ($arr as $key => $value) {
-        echo $key . '=>' . $value . '<br>';
+        echo "$key => $value <br>";
     }
 ?>
