@@ -7,13 +7,13 @@
         echo "connection error" . mysqli_connect_error();
     }
 
-    //Write query for all pizzas
+    //Write query for certain pizzas
     $sql = "SELECT title, ingredients, id FROM pizzas";
 
     //Make query and get results
     $result = mysqli_query($conn, $sql);
 
-    //Fetch the resulting rows as am array
+    //Fetch the resulting rows as an array
     $pizzas = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
     //View what we just did
